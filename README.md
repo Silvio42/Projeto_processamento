@@ -13,13 +13,13 @@ O descritor implementado neste projeto são as Características de Haralick, que
 Este descritor é amplamente utilizado para análise de textura em imagens, capturando informações sobre a variação de intensidade entre os pixels que são úteis para classificar padrões espaciais. 
 As características de Haralick incluem contraste, homogeneidade, energia, correlação e duas medidas de segunda ordem (ASM).
 
-## Repositório do projeto
+# Repositório do projeto
 https://github.com/Silvio42/Projeto_processamento
 
-#Classificador e Acurácia
+# Classificador e Acurácia
 Para este projeto, utilizamos um classificador baseado em máquina de vetores de suporte (SVM) para distinguir entre imagens de raios-X de tórax que mostram sinais de COVID-19 e aquelas de pacientes saudáveis. A acurácia obtida no conjunto de teste foi de 93.5%, indicando uma alta eficácia do modelo em reconhecer e diferenciar os padrões de textura associados à presença do vírus.
 
-#Instruções de Uso
+# Instruções de Uso
 Para executar a análise de texturas em novas imagens de raios-X e classificar se mostram sinais de COVID-19, siga estas etapas:
 
 - Instalação: Certifique-se de que todas as dependências estão instaladas usando pip install -r requirements.txt.
